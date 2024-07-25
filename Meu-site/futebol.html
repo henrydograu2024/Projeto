@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softsports - Futebol</title>
+    <style>
+        h2 {
+           color: #00ffff;
+       }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+        }
+        header {
+            background-color: #00ffff;
+            color: #000;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .menu-toggle {
+            cursor: pointer;
+            color: #000;
+            font-size: 20px;
+            padding: 0 10px;
+            position: absolute;
+            right: 10px; 
+            top: 10px;
+            z-index: 1001; /* Para estar na frente do menu */
+            transition: right 0.3s ease;
+        }
+        nav {
+            background-color: #00ccff;
+            color: #fff;
+            width: 200px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: -200px;
+            transition: right 0.3s ease;
+            z-index: 1000;
+        }
+        nav.active {
+            right: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #0099ff;
+        }
+        section {
+            margin-right: 200px;
+            padding: 20px;
+        }
+        footer {
+            background-color: #00ffff;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Futebol</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<nav id="side-menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="futebol.html">Futebol</a></li>
+        <li><a href="volei.html">Vôlei</a></li>
+        <li><a href="basquete.html">Basquete</a></li>
+        <li><a href="handebol.html">Handebol</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <h2>Futebol</h2>
+
+<p>
+O futebol é definido em primeiro lugar como um jogo que inclui dois adversários e um árbitro com a capacidade de impor uma justiça imparcial. Cada adversário é composto por uma equipa de 11 jogadores em campo cada, com a opção de incluir jogadores suplentes durante o jogo de futebol.
+</p>
+
+<p>
+O objetivo é rolar uma bola esférica para marcar um ponto , cuja pontuação é válida ao cruzar a linha limite da baliza adversária. Cada ponto conquistado é conhecido como gol , portanto, a equipe que marcar mais gols no decorrer de 90 minutos – tempo útil de uma partida – será a vencedora.
+</p>
+
+<p>
+Cada equipe deve incluir em seu elenco um goleiro ou goleiro, único jogador capaz de tocar a bola com as mãos e com a função de impedir que a bola cruze seu próprio arco; um grupo de defensores; um grupo de flyers e finalmente um grupo de avançados. A tática de cada equipe pode variar de acordo com a preferência do diretor técnico responsável pela equipe de futebol.
+</p>
+
+<img src="Imagens/futebol.jpeg" alt="Foto sobre o Futebol.">
+
+   <h2>Regras</h2>
+
+
+<ul>• Chute lateral. Uma vez que a bola tenha cruzado uma linha lateral, você deve prosseguir para pegar a bola com sua mão para colocá-la de volta em jogo.</ul>
+<ul>• Tiro de meta. Uma vez que a bola tenha cruzado a linha de frente, tendo sido tocada pela última vez por uma equipe no campo de jogo rival, o goleiro rival deve colocar a bola em jogo de sua baliza.</ul>
+<ul>• Tiro de esquina. Uma vez que a bola tenha cruzado a linha de frente e tenha sido tocada pela última vez por uma equipe em sua própria quadra, o adversário terá permissão para retomar o jogo com um chute de bola do vértice correspondente.</ul>
+<ul>• Cartão amarelo. Caberá ao árbitro sancionar um jogador com cartão amarelo quando um jogador comete uma infração.</ul>
+<ul>• Cartão vermelho. Um jogador verá o cartão vermelho ao receber dois cartões amarelos e deve deixar o campo de jogo imediatamente. Também pode ser sancionado com um cartão vermelho direto.</ul>
+<ul>• Você precisará incluir grama natural ou artificial em uma forma retangular.</ul>
+<ul>• Medições estabelecidas há muito tempo.  mínimo 90 metros, máximo 120 metros.</ul>
+<ul>• Medidas de largura estabelecidas.  mínimo de 45 metros, máximo de 90 metros.</ul>
+<ul>• As balizas devem medir até 2,44 metros, com 7,32 metros de separação entre um polo lateral e o outro.</ul>
+
+<img src="Imagens/regrasfut.jpeg" alt="Foto sobre as regras do Futebol.">
+
+<h2>História do Futebol</h2>
+
+<p>
+O futebol tem raízes antigas que remontam a diversas culturas ao redor do mundo. Uma das formas primitivas do jogo foi documentada na China, por volta do século II e III a.C., conhecida como "Cuju", que envolvia chutar uma bola de couro para marcar gols em uma rede. Na Inglaterra medieval, jogos similares eram praticados, muitas vezes de forma violenta e caótica. No entanto, foi na Inglaterra do século XIX que o futebol moderno começou a ganhar forma, com a criação de regras mais organizadas e a fundação de clubes de futebol.
+</p>
+
+<p>
+A Football Association (FA) foi estabelecida em 1863, marcando o início oficial do futebol organizado. Em 1872, ocorreu o primeiro jogo internacional reconhecido, entre Inglaterra e Escócia. O esporte rapidamente se espalhou pelo mundo, com a formação de federações nacionais e a popularização de competições locais e internacionais. A Copa do Mundo FIFA, criada em 1930, se tornou o principal torneio internacional de futebol.
+</p>
+
+<p>
+O futebol cresceu em popularidade ao longo do século XX, tornando-se o esporte mais assistido e praticado globalmente. Grandes jogadores e equipes lendárias surgiram, contribuindo para a mitologia do esporte. O desenvolvimento tecnológico e a profissionalização do jogo trouxeram mudanças significativas, como a introdução da televisão, o aumento do investimento financeiro e a globalização do mercado de jogadores.
+</p>
+
+<p>
+Hoje, o futebol é uma força cultural poderosa, transcendendo barreiras geográficas, sociais e culturais. Milhões de pessoas em todo o mundo se reúnem para assistir a jogos, seja nos estádios ou pela televisão, enquanto milhares de jovens sonham em se tornar os próximos grandes astros do esporte. O futebol continua a evoluir, enfrentando desafios como questões de igualdade, diversidade e sustentabilidade, enquanto mantém sua posição como uma paixão compartilhada por bilhões de pessoas.
+</p>
+
+<img src="Imagens/historiafut.jpeg" alt="Foto sobre a História do Futebol.">
+
+</section>
+
+<footer>
+    <p>&copy; 2024 Site criado por Henry.</p>
+</footer>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById('side-menu');
+        menu.classList.toggle('active');
+        
+        var menuToggle = document.querySelector('.menu-toggle');
+        menuToggle.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>

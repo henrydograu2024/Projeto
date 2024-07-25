@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softsports - Home</title>
+    <style>
+        h2 {
+           color: #7fff00;
+           
+       }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+        }
+        header {
+            background-color: #7fff00;
+            color: #000;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .menu-toggle {
+            cursor: pointer;
+            color: #000;
+            font-size: 20px;
+            padding: 0 10px;
+            position: absolute;
+            right: 10px; 
+            top: 10px;
+            z-index: 1001; /* Para estar na frente do menu */
+            transition: right 0.3s ease;
+        }
+        nav {
+            background-color: #00b300;
+            color: #fff;
+            width: 200px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: -200px;
+            transition: right 0.3s ease;
+            z-index: 1000;
+        }
+        nav.active {
+            right: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #006600;
+        }
+        section {
+            margin-right: 200px;
+            padding: 20px;
+        }
+        footer {
+            background-color: #7FFF00;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Softsports</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<nav id="side-menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="futebol.html">Futebol</a></li>
+        <li><a href="volei.html">Vôlei</a></li>
+        <li><a href="basquete.html">Basquete</a></li>
+        <li><a href="handebol.html">Handebol</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <h2>Esportes</h2>
+
+    <p>
+Os Esportes são todas atividades físicas realizadas pelo homem e que tem o objetivo de promover o fortalecimento da saúde e o equilíbrio da mente e do corpo. As práticas competitivas estão sujeitas a regulamentação de um ente legislador. O esporte colabora com a socialização, formação e desenvolvimento dos indivíduos.</p>
+
+<img src="Imagens/esporte.jpeg" alt="Foto sobre o Esporte.">
+
+    <h2>História do esporte</h2>
+   <p>
+As atividades esportivas ou recreativas nasceram na Antiguidade e sua história é dividida em três períodos. O primeiro deles é o Esporte Antigo, que vai até a primeira metade do século XIX. O Segundo momento é denominado Esporte Moderno, entre 1820 até 1980. O último é o Esporte Contemporâneo e vai de 1980 até a época atual. </p>
+
+<p>
+As primeiras atividades eram realizadas com o objetivo de sobrevivência e só posteriormente ganharam características de esporte. Eram a corrida de caça, esgrima e lutas. Algumas civilizações antigas como a China e Japão desenvolveram as artes marciais. O Egito promovia a corrida, o arremesso e praticava uma atividade semelhante ao que atualmente se conhece como futebol. 
+</p>
+
+<p>
+Mas foram os gregos que criaram os Jogos Olímpicos da Antiguidade. Essa civilização foi também responsável por realizar os Jogos Fúnebres (jogos homenagem a recém-falecido), Jogos Píticos (antecessor dos jogos Olímpicos), Panatenéias (festa com jogos em homenagem a Atena) e Jogos Ístimicos (honra a Poseidon).
+</p>
+
+<p>
+Os primeiros jogos olímpicos surgiram na cidade de Olímpia, a partir de 779 a.C. Durante a competição eram realizadas atividades de luta, arremesso, salto à distância, boxe, corrida. Os vencedores recebiam uma coroa de oliveira e diversas outras recompensas. 
+</p>
+
+<p>
+Durante os anos de 394 d.C., o imperador romano Teodósio decretou que os jogos eram festas pagãs e que por isso deveriam ser banidas, pois era inaceitável para povos onde a religião era o monoteísmo. 
+</p>
+
+<p>
+Os Jogos Públicos ou jogos circenses surgem na Idade Média. Estas atividades adaptaram os conceitos helênicos dos jogos e criaram os combates entre gladiadores. Surgiram, assim, os Torneios Medievais (competições de cavalarias), Jeu de Palme (jogo parecido com o tênis), Soule , Gioco del Calcio (jogo parecido com o futebol) e Justas.
+</p>
+<p>
+Em 1896, Pierre de Coubertin remodelou os Jogos Olímpicos e o levou de volta para Atenas e mais 13 nações. Os jogos teve a participação de 241 atletas e realização de 43 eventos.  
+</p>
+
+<p>
+O século XVIII passou por diversas transformações econômicas e sociais. A Inglaterra tornara-se o berço científico, da industrialização, urbanização e capitalismo. O país também passou a se destacar no mundo do esporte, principalmente o futebol. Na época, o esporte era bastante violento e por isso o professor Thomas Arnold sugeriu que fosse modificado para ter caráter educativo. A ideia não foi muito bem aceita pelos praticantes e isso acabou colaborando o surgimento de dois jogos distintos o futebol, jogado com os pés, e o rugby, mais violento e praticado com mãos e pés. 
+</p>
+
+<p>
+Em 1978, foi criada a Carta Internacional de Educação Física e Esporte. O documento apresenta instruções e questões relativas à atividade esportiva. Diversos outros documentos foram criados posteriormente com o objetivo de reconhecer o esporte como um direto de todos e como um benefício para a inclusão social.
+</p>
+
+<img src="Imagens/historia.jpeg" alt="Foto sobre a história do Esporte." width="408" height="200">
+
+
+<h2>Benefícios do Esporte</h2>
+<p>
+Todos conhecem os benefícios dos esportes para o corpo, mas as vantagens não ficam somente nesse fator. A prática de atividades físicas também colabora com a saúde mental e quem realiza praticas esportivas constantes tem uma melhor qualidade de vida. Entre as quais:
+</p>
+
+<ul>• Melhora na concentração;</ul>
+<ul>• Diminuição do estresse;</ul></ul>
+<ul>• Melhor qualidade do sono;</ul>
+<ul>• Aumento da confiança;</ul>
+<ul>• Previne a depressão;</ul>
+<ul>• Manutenção da massa corporal;</ul>
+<ul>• Melhor desempenho escolar.</ul>
+
+<p>
+A ausência de atividades físicas, por outro lado, aumenta o sedentarismo e contribui com:
+</p>
+
+<ul>• Aumento de gordura no abdômen;</ul>
+<ul>• Obesidade;</ul>
+<ul>• Estresse;</ul>
+<ul>• Infertilidade;</ul>
+<ul>• Má alimentação;</ul>
+<ul>• Envelhecimento precoce;</ul>
+<ul>• Doenças como infarto ou AVC.</ul>
+
+<img src="Imagens/beneficios.jpeg" alt="Foto sobre os benefícios.">
+
+</section>
+
+<footer>
+    <p>&copy; 2024 Site criado por Henry.</p>
+</footer>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById('side-menu');
+        menu.classList.toggle('active');
+        
+        var menuToggle = document.querySelector('.menu-toggle');
+        menuToggle.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
