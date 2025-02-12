@@ -108,10 +108,10 @@
     .a button:hover{
       background-color: red;
     }
-    #valid{
+    #validarLogin{
       background-color: #00cc66;
     }
-    #valid:hover{
+    #validarLogin:hover{
       background-color: #00b359;
     }
     #dig{
@@ -182,7 +182,7 @@
   <label for="senha"><small>Senha</small></label>
   <input id="s1"type="text" placeholder="Senha" id="senha">
 <br>
-   <button id="valid">Validar</button>
+   <button id="validarLogin">Validar</button>
 
    <h3 id="log">4- Digitação de Texto</h3>
    <textarea id="texto" placeholder= "Digite seu texto aqui" rows='4' cols='50'></textarea>
@@ -239,7 +239,7 @@
   };
 </script>
   <script>
-    document.getElementById('valid').onclick = function(){
+    document.getElementById('validarLogin').onclick = function(){
     let tentlogin = document.getElementById('l1').value;
     let tentkey = document.getElementById('s1').value;
     let user = 'henry';
